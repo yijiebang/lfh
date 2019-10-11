@@ -1,0 +1,76 @@
+{
+  "name": "lfh-life",
+  "version": "0.0.1",
+  "description": "Vue project",
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "preview": "node preview/index.js --preview --report",
+    "lint": "eslint --fix --ext .js,.vue src"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{js,vue}": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "deepcopy": "^2.0.0",
+    "js-cookie": "2.2.0",
+    "js-md5": "^0.7.3",
+    "material-design-icons-iconfont": "^5.0.1",
+    "nprogress": "^0.2.0",
+    "vue": "2.6.10",
+    "vue-i18n": "^8.11.2",
+    "vue-router": "3.0.2",
+    "vuelidate": "^0.7.4",
+    "vuetify": "^1.5.14",
+    "vuex": "3.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.0.0",
+    "@babel/register": "7.0.0",
+    "@vue/cli-plugin-babel": "3.6.0",
+    "@vue/cli-plugin-eslint": "3.6.0",
+    "@vue/cli-service": "3.6.0",
+    "autoprefixer": "^9.5.1",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "10.0.1",
+    "chalk": "2.4.2",
+    "connect": "3.6.6",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.2.2",
+    "husky": "^2.3.0",
+    "lint-staged": "^8.1.7",
+    "mockjs": "1.0.1-beta3",
+    "node-sass": "^4.12.0",
+    "plop": "^2.3.0",
+    "require-context": "^1.1.0",
+    "runjs": "^4.3.2",
+    "sass-loader": "^7.1.0",
+    "script-ext-html-webpack-plugin": "2.1.3",
+    "script-loader": "0.7.2",
+    "serve-static": "^1.13.2",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "svg-sprite-loader": "4.1.3",
+    "svgo": "1.2.2",
+    "vue-template-compiler": "2.6.10",
+    "vuetify-loader": "^1.2.2"
+  },
+  "engines": {
+    "node": ">=8.9",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}

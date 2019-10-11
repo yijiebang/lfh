@@ -1,0 +1,7 @@
+{
+	"mainDocumentPath": "ppswlp_template.docx",
+	"documentPathList": [],
+	"removeSectionList": [],
+	"data": "<?xml version=\"1.0\" encoding=\"utf-8\"?>
+	<pps ppsNo=\"LFHL-20190829001\" ppsRefNo=\"LFH190829001\" ppsDate=\"29/08/19\" agentCode=\"K001\" agentName=\"Chan Tai Man\" agentPhone=\"8888 8888\" insuredName=\"陳大明\" insuredAge=\"29\" InsuredGender=\"男\" insuredSmoke=\"非吸煙\" basicPlan=\"『世』心終身壽險計劃\" ccy=\"澳門元\" basicSA=\"180,000\" basAPm=\"1,726.40\"/>"
+}

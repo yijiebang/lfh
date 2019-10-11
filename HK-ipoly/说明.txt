@@ -1,0 +1,35 @@
+可使用的变量
+table
+   |- table.className : 输出表对应该的java Class(去掉配置中的驼峰分隔符, 进行驼峰命名,第一个大写)
+   |- table.fullSqlName : catalog + schema + sqlName
+   |- talbe.pkColumn : 返回对应主键column对象(多个主键,则返回第一个)
+   |- table.pkColumns : 返回所有的主键column对象
+   |- table.notPkColumns : 返回所有的非主键column对象
+   |- table.sqlName : 返回table的表名
+   |- table.catalog : 返回table的catalog
+   |- table.schema : 返回schema
+   |- table.remarks : 返回 table的注释
+   
+column
+   |- column.boolean : 列是不是boolean对象
+   |- column.primitive : 列是不是基础类型
+   |- column.javaProperty : 列的java字段(去掉配置中的驼峰分隔符, 进行驼峰命名,第一个字母小写)
+   |- column.simpleJavaType : 列的java类型(去掉配置中的列分隔符,进行驼峰命名,第一个字母小写, 去掉java.lang.)
+   |- column.javaType:  : 列的java类型(去掉配置中的列分隔符,进行驼峰命名,第一个字母小写)
+   |- column.jdbcType:  : 列的sql类型(例VALCHAR)
+   |- column.primitiveJavaType : 如果列是包装类型, 则返回对应的基本类型(Boolean - > bool)
+   |- column.table : 列的引用的table对象
+   |- column.sqlName : 列的sql 的名字
+   |- column.sqlType : 列的sql Type(参照java.sql.Types)
+   |- column.sqlTypeName : 列的sql名称(例VALCHAR)
+   |- column.nullable : 列能不能为空
+   |- column.length : 列的长度
+   |- column.scale : 列的精度
+   |- column.isIdentity : 列是不是自增
+   |- column.isPk : 列是是主键
+   |- column.remarks : 列的注释
+   |- column.defaultValue : 默认值
+   
+常见用法:
+	列的java字段, 第一个字母小写: column.javaProperty?uncap_first
+	

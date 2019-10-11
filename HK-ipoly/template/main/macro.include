@@ -1,0 +1,22 @@
+<#assign className = table.className />
+<#list removeprefix_list as each>
+	<#assign index = (className?upper_case)?index_of(each?upper_case)>
+	<#if (index=0)>
+		<#assign className=className?substring(each?length)>
+	</#if>
+</#list>
+<#list words_list as each>
+	<#assign index = (className?upper_case)?index_of(each?upper_case)>
+	<#if (index>0)>
+		<#assign front=((className?substring(0, index))?lower_case)?cap_first >
+		<#assign middle=((className?substring(index))?lower_case)?cap_first>
+		<#assign className=front+middle>
+	</#if>
+</#list>
+<#if (table.pkColumns?size > 1)>
+	<#assign pkJavaType = 'Object'/>
+<#else>
+	<#assign pkJavaType = (table.pkColumn.simpleJavaType)!'Object' />
+</#if>
+<#assign className = (className?cap_first) />
+<#assign unCapClassName = className?uncap_first>

@@ -1,0 +1,2 @@
+RabbitMQ中的交换机有Direct Exchange（直连交换机）、Topic Exchange（通配符交换机）、Fanout Exchange（广播式交换机）、Headers Exchange（Headers交换机）四种，常用的就前三种，本文将对前三种做一个简单的总结，加深对MQ中交换机机制的理解。
+ 

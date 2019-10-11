@@ -1,0 +1,25 @@
+# maven ignore
+target/
+*.jar
+*.war
+*.zip
+*.tar
+*.tar.gz
+
+# eclipse ignore
+.settings/
+.project
+.classpath
+
+#idea ignore
+*.iml
+.idea
+
+# temp ignore
+logs/
+temp/
+python/
+
+# sonar
+sonar-project.properties
+
