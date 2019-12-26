@@ -59,7 +59,7 @@
 
 		<cache-api.version>0.4</cache-api.version>
 		<jboss.version>3.0.7.Final</jboss.version>
-		<tomcat-embed-core.version>9.0.16</tomcat-embed-core.version>
+		<tomcat-embed-core.version>9.0.30</tomcat-embed-core.version>
 		<tomcat-embed-logging-juli.version>8.0.11</tomcat-embed-logging-juli.version>
 		<kryo.version>2.24.0</kryo.version>
 		<kryo-serializers.version>0.26</kryo-serializers.version>
