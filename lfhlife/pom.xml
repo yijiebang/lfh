@@ -52,7 +52,7 @@
 		<protobuf.version>3.0.0-alpha-3.1</protobuf.version>
 		<protobuf.java.format.version>1.2</protobuf.java.format.version>
 
-		<jsoup.version>1.7.3</jsoup.version>
+		<jsoup.version>1.14.2</jsoup.version>
 		<xpath.version>2.2</xpath.version>
 		<dom4j.version>1.6.1</dom4j.version>
 		<perf4j.version>0.9.16</perf4j.version>
