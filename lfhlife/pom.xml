@@ -32,7 +32,7 @@
 		<proxool.version>0.9.1</proxool.version>
 
 		<json.path.version>0.8.1</json.path.version>
-		<fastjson.version>1.2.4</fastjson.version>
+		<fastjson.version>1.2.83</fastjson.version>
 		<!-- mySql -->
 		<mysql.verson>5.1.6</mysql.verson>
 		<!-- frameworks -->
