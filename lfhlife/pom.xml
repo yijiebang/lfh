@@ -64,7 +64,7 @@
 		<kryo.version>2.24.0</kryo.version>
 		<kryo-serializers.version>0.26</kryo-serializers.version>
 		<fst.version>1.55</fst.version>
-		<poi.version>3.9</poi.version>
+		<poi.version>4.1.1</poi.version>
 
 		<jna.version>4.5.0</jna.version>
 
